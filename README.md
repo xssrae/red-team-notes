@@ -1,10 +1,11 @@
-# Meus estudos, documentos e ferramentas para Red Team
+# My studies, documents and tools for Red Team
 ![my_obsidian](https://github.com/xssrae/Red-Team-Notes/blob/main/IMG/Pasted%20image%2020231129020557.png)
 
-Aqui é onde se encontra meu *"segundo cérebro"*. Todas as minhas anotações realizadas no Obsidian.
+This is where my *"second brain"* is. All my notes taken on Obsidian for my day-to-day work as a Red Team. Some notes have not yet been finalized for many reasons, but it will be nice to see updates to this repository.
 
-Sinta-se livre para usa-las e consulta-las caso queira.
-# Plataformas de estudo
+Feel free to use them and consult them if you like.
+
+# Study platforms
 - [Tryhackme](https://tryhackme.com/)
 - [Hackthebox](https://academy.hackthebox.com/)
 - [Hackaflag](https://hackaflag.com.br/)
@@ -12,17 +13,17 @@ Sinta-se livre para usa-las e consulta-las caso queira.
 - [XPSec Academy](https://www.apisecuniversity.com/)
 - [DIO](https://www.dio.me/)
 - [Github](https://github.com/xssrae?tab=stars)
-# Pastas
-- [Criptografia](https://github.com/xssrae/Red-Team-Notes/tree/main/CRIPTOGRAFIA)
+# Folders
+- [Criptography](https://github.com/xssrae/Red-Team-Notes/tree/main/CRIPTOGRAFIA)
 - [CTF](https://github.com/xssrae/Red-Team-Notes/tree/main/CTF)
-- [Engenharia Reversa](https://github.com/xssrae/Red-Team-Notes/tree/main/ENG_REVERSA)
-- [Engenharia Social](https://github.com/xssrae/Red-Team-Notes/tree/main/ENG_REVERSA)
-- [Geral](https://github.com/xssrae/Red-Team-Notes/tree/main/GERAL)
-- [Imagens](https://github.com/xssrae/Red-Team-Notes/tree/main/IMG)
+- [Reverse Engineering](https://github.com/xssrae/Red-Team-Notes/tree/main/ENG_REVERSA)
+- [Social Engineering](https://github.com/xssrae/Red-Team-Notes/tree/main/ENG_SOCIAL)
+- [General](https://github.com/xssrae/Red-Team-Notes/tree/main/GERAL)
+- [Images](https://github.com/xssrae/Red-Team-Notes/tree/main/IMG)
 - [Malware](https://github.com/xssrae/Red-Team-Notes/tree/main/MALWARE)
 - [Mobile](https://github.com/xssrae/Red-Team-Notes/blob/main/MOBILE/Links.md)
-- [Organização](https://github.com/xssrae/Red-Team-Notes/tree/main/ORGANIZA%C3%87%C3%83O)
-- [Redes](https://github.com/xssrae/Red-Team-Notes/tree/main/REDES)
+- [Organization](https://github.com/xssrae/Red-Team-Notes/tree/main/ORGANIZA%C3%87%C3%83O)
+- [Networking](https://github.com/xssrae/Red-Team-Notes/tree/main/REDES)
 - [Web](https://github.com/xssrae/Red-Team-Notes/tree/main/WEB)
 
 ![cat](https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true)
