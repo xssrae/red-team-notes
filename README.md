@@ -1,7 +1,7 @@
 # Meus estudos, documentos e ferramentas para Red Team
 ![my_obsidian](https://github.com/xssrae/Red-Team-Notes/blob/main/IMG/Pasted%20image%2020231129020557.png)
 
-Aqui é onde se encontra meu *"segundo cérebro"*. Todas as minhas anotações realizadas no Obsidian.
+Aqui é onde se encontra meu *"segundo cérebro"*. Todas as minhas anotações realizadas no Obsidian para meu dia a dia como Red Team. Muitas anotações ainda não foram finalizadas por diversos motivos, porém, será legal ver as atualizações desse repositório.
 
 Sinta-se livre para usa-las e consulta-las caso queira.
 # Plataformas de estudo
