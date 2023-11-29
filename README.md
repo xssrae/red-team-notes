@@ -4,7 +4,7 @@
 
 This is like my *"second brain"*. Here i have all the Obsidian notes for my day work as a Red Team. Some notes haven't been ended for many reasons but should be cool to see updates to this repository.
 
-Feel free to use them and consult them if you like.
+Feel free to use and consult them if you like.
 
 # Study platforms
 - [Tryhackme](https://tryhackme.com/)
