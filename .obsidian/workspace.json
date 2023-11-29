@@ -11,11 +11,19 @@
             "id": "a8272f61716c7e3d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "IMG/Pasted image 20231129042904.png"
+              }
+            }
+          },
+          {
+            "id": "37d10b5282ba0a40",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "IMG/Pasted image 20231129042904.png"
               }
             }
           }
@@ -69,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 675.0096130371094
   },
   "right": {
     "id": "3807a7fe267f9b21",
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "IMG/Pasted image 20231129042904.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "IMG/Pasted image 20231129042904.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "IMG/Pasted image 20231129042904.png"
               }
             }
           },
@@ -166,9 +174,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "a8272f61716c7e3d",
+  "active": "7492318558bad5f2",
   "lastOpenFiles": [
-    "WEB/Pasted image 20231129042904.png",
+    "WEB/Pasted image 20231129043147.png",
+    "IMG/Pasted image 20231129042904.png",
+    "README.md",
     "IMG/Screenshot_2023-11-20_13_13_22.png",
     "IMG/Pasted image 20231129020557.png",
     "IMG/Screenshot_2023-11-20_13_18_46.png",
@@ -196,13 +206,10 @@
     "WEB/Enum/Básica.md",
     "WEB/Enum/Enum.md",
     "WEB/Enum/Portscan.md",
-    "README.md",
     "IMG/Pasted image 20231129020019.png",
     "IMG/Pasted image 20231127002743.png",
     "IMG/Pasted image 20231120155335.png",
     "IMG/Pasted image 20231120134325.png",
-    "IMG/tumblr_oiwz9teuJx1vvw597o1_540.webp",
-    "IMG/wallhaven-l8kkxr_1920x1080.png",
     "GERAL/OWASP - Checklist.md",
     "ENG_REVERSA/Buffer Overflow.md",
     "CTF/Links.md",
