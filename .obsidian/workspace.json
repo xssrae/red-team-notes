@@ -13,25 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEB/Exploitation - Basic Tools.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "b95bb42ddcd46c7b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "61c77c3681cc4d6c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Roadmap_sec-main/exploitation.pdf"
               }
             }
           }
@@ -81,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -102,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WEB/Exploitation - Basic Tools.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WEB/Exploitation - Basic Tools.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WEB/Exploitation - Basic Tools.md"
+                "file": "README.md"
               }
             }
           },
@@ -185,8 +168,18 @@
   },
   "active": "a8272f61716c7e3d",
   "lastOpenFiles": [
+    "WEB/Pasted image 20231129042904.png",
+    "IMG/Screenshot_2023-11-20_13_13_22.png",
+    "IMG/Pasted image 20231129020557.png",
+    "IMG/Screenshot_2023-11-20_13_18_46.png",
+    "IMG/Screenshot_2023-11-20_13_32_10.png",
+    "EXPLOITATION/Basic Tools.md",
+    "EXPLOITATION/Payloads/Payload simples com o msfvenom e Priv Esc.md",
+    "EXPLOITATION/Payloads/Sem título.md",
+    "EXPLOITATION",
+    "MOBILE/Links.md",
+    "ENG_SOCIAL/Phising Pagina Facebook Fake.md",
     "Roadmap_sec-main/exploitation.pdf",
-    "WEB/Exploitation - Basic Tools.md",
     "Roadmap_sec-main/README.md",
     "Roadmap_sec-main/Command_tricks.pdf",
     "Roadmap_sec-main/Crack.pdf",
@@ -203,21 +196,14 @@
     "WEB/Enum/Básica.md",
     "WEB/Enum/Enum.md",
     "WEB/Enum/Portscan.md",
-    "Roadmap_sec-main/port_scan.pdf",
     "README.md",
-    "IMG/Pasted image 20231129020557.png",
-    "IMG/Screenshot_2023-11-20_13_13_22.png",
     "IMG/Pasted image 20231129020019.png",
-    "IMG/Screenshot_2023-11-20_13_18_46.png",
-    "IMG/Screenshot_2023-11-20_13_32_10.png",
     "IMG/Pasted image 20231127002743.png",
     "IMG/Pasted image 20231120155335.png",
     "IMG/Pasted image 20231120134325.png",
     "IMG/tumblr_oiwz9teuJx1vvw597o1_540.webp",
     "IMG/wallhaven-l8kkxr_1920x1080.png",
-    "MOBILE/Links.md",
     "GERAL/OWASP - Checklist.md",
-    "ENG_SOCIAL/Phising Pagina Facebook Fake.md",
     "ENG_REVERSA/Buffer Overflow.md",
     "CTF/Links.md",
     "ORGANIZAÇÃO/Obsidian - Organização.md"
