@@ -25,14 +25,14 @@
       "query": "WEB",
       "color": {
         "a": 1,
-        "rgb": 10191077
+        "rgb": 8880112
       }
     },
     {
       "query": "ENG_REVERSA",
       "color": {
         "a": 1,
-        "rgb": 1776485
+        "rgb": 1052820
       }
     },
     {
@@ -118,6 +118,13 @@
         "a": 1,
         "rgb": 25343
       }
+    },
+    {
+      "query": "EXPLOITATION",
+      "color": {
+        "a": 1,
+        "rgb": 4320472
+      }
     }
   ],
   "collapse-display": false,
@@ -130,6 +137,6 @@
   "repelStrength": 13.7697481620522,
   "linkStrength": 1,
   "linkDistance": 297,
-  "scale": 0.421054823945015,
+  "scale": 0.4210548239450151,
   "close": false
 }
