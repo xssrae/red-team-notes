@@ -1,5 +1,5 @@
 # Meus estudos, documentos e ferramentas para Red Team
-![[Pasted image 20231129020557.png]]
+![my_obsidian](https://github.com/xssrae/Red-Team-Notes/blob/main/IMG/Pasted%20image%2020231129020557.png)
 
 Aqui é onde se encontra meu *"segundo cérebro"*. Todas as minhas anotações realizadas no Obsidian.
 
