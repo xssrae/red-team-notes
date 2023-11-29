@@ -17,7 +17,7 @@ Feel free to use them and consult them if you like.
 - [Criptography](https://github.com/xssrae/Red-Team-Notes/tree/main/CRIPTOGRAFIA)
 - [CTF](https://github.com/xssrae/Red-Team-Notes/tree/main/CTF)
 - [Reverse Engineering](https://github.com/xssrae/Red-Team-Notes/tree/main/ENG_REVERSA)
-- [Social Engineering](https://github.com/xssrae/Red-Team-Notes/tree/main/ENG_REVERSA)
+- [Social Engineering](https://github.com/xssrae/Red-Team-Notes/tree/main/ENG_SOCIAL)
 - [General](https://github.com/xssrae/Red-Team-Notes/tree/main/GERAL)
 - [Images](https://github.com/xssrae/Red-Team-Notes/tree/main/IMG)
 - [Malware](https://github.com/xssrae/Red-Team-Notes/tree/main/MALWARE)
