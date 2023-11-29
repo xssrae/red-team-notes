@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GERAL/OWASP - Checklist.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GERAL/OWASP - Checklist.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GERAL/OWASP - Checklist.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GERAL/OWASP - Checklist.md"
+                "file": "README.md"
               }
             }
           },
@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -166,5 +166,25 @@
     }
   },
   "active": "47cf61048fc96622",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Pasted image 20231129020557.png",
+    "IMG/Screenshot_2023-11-20_13_13_22.png",
+    "IMG/Pasted image 20231129020019.png",
+    "IMG/Screenshot_2023-11-20_13_18_46.png",
+    "README.md",
+    "IMG/Screenshot_2023-11-20_13_32_10.png",
+    "IMG/Pasted image 20231127002743.png",
+    "IMG/Pasted image 20231120155335.png",
+    "IMG/Pasted image 20231120134325.png",
+    "IMG/tumblr_oiwz9teuJx1vvw597o1_540.webp",
+    "IMG/wallhaven-l8kkxr_1920x1080.png",
+    "Pasted image 20231129015911.png",
+    "MOBILE/Links.md",
+    "MALWARE/Random_Malware_Techniques.pdf",
+    "GERAL/OWASP - Checklist.md",
+    "ENG_SOCIAL/Phising Pagina Facebook Fake.md",
+    "ENG_REVERSA/Buffer Overflow.md",
+    "CTF/Links.md",
+    "ORGANIZAÇÃO/Obsidian - Organização.md"
+  ]
 }
