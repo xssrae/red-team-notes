@@ -1,0 +1,170 @@
+{
+  "main": {
+    "id": "73bdd14b93ee463e",
+    "type": "split",
+    "children": [
+      {
+        "id": "525b057d1c890c2d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47cf61048fc96622",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GERAL/OWASP - Checklist.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d03f5596a16542ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ed9d7e4ee890b26",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7492318558bad5f2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1cc536538ca44cb6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f4dfc59102e53b26",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3807a7fe267f9b21",
+    "type": "split",
+    "children": [
+      {
+        "id": "29f91369b5a6a788",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2dab7eed78811bd3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "GERAL/OWASP - Checklist.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4ca897db30e4aa63",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "GERAL/OWASP - Checklist.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5994fcbe4eb63e15",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ce42a9c622a71cbb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "GERAL/OWASP - Checklist.md"
+              }
+            }
+          },
+          {
+            "id": "d7bd3b0dcfa1c622",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "0859e7303c25637b",
+            "type": "leaf",
+            "state": {
+              "type": "FANTASY_CALENDAR",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "fantasy-calendar:Open Large Fantasy Calendar": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "47cf61048fc96622",
+  "lastOpenFiles": []
+}

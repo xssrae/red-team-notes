@@ -1,0 +1,2 @@
+- [Criptohack](https://cryptohack.org/)
+- [Cripto101]([https://www.crypto101.io/](https://www.crypto101.io/ "https://www.crypto101.io/"))

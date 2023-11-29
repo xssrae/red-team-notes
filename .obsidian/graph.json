@@ -1,0 +1,135 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "REDES",
+      "color": {
+        "a": 1,
+        "rgb": 5420768
+      }
+    },
+    {
+      "query": "WIRELESS",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "WEB",
+      "color": {
+        "a": 1,
+        "rgb": 10191077
+      }
+    },
+    {
+      "query": "ENG_REVERSA",
+      "color": {
+        "a": 1,
+        "rgb": 1776485
+      }
+    },
+    {
+      "query": "MOBILE",
+      "color": {
+        "a": 1,
+        "rgb": 7676092
+      }
+    },
+    {
+      "query": "ENG SOCIAL",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
+    },
+    {
+      "query": "CTF",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "CRIPTOGRAFIA",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "MALWARE",
+      "color": {
+        "a": 1,
+        "rgb": 8187539
+      }
+    },
+    {
+      "query": "ORGANIZAÇÃO",
+      "color": {
+        "a": 1,
+        "rgb": 15131806
+      }
+    },
+    {
+      "query": "GERAL",
+      "color": {
+        "a": 1,
+        "rgb": 10417624
+      }
+    },
+    {
+      "query": "Windows",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "Linux",
+      "color": {
+        "a": 1,
+        "rgb": 14732626
+      }
+    },
+    {
+      "query": "Pentest",
+      "color": {
+        "a": 1,
+        "rgb": 7868946
+      }
+    },
+    {
+      "query": "API",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "SO",
+      "color": {
+        "a": 1,
+        "rgb": 25343
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -0.1,
+  "nodeSizeMultiplier": 1.4037541060535,
+  "lineSizeMultiplier": 0.717002972000626,
+  "collapse-forces": true,
+  "centerStrength": 0.107852338495229,
+  "repelStrength": 0.355075864226498,
+  "linkStrength": 1,
+  "linkDistance": 30,
+  "scale": 0.5983441810898649,
+  "close": false
+}
