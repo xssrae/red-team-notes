@@ -1,7 +1,7 @@
 # My studies, documents and tools for Red Team
 ![my_obsidian](https://github.com/xssrae/Red-Team-Notes/blob/main/IMG/Pasted%20image%2020231129020557.png)
 
-This is where my *"second brain"* is. All my notes taken on Obsidian for my day-to-day work as a Red Team. Many notes have not yet been finalized for various reasons, but it will be nice to see updates to this repository.
+This is where my *"second brain"* is. All my notes taken on Obsidian for my day-to-day work as a Red Team. Some notes have not yet been finalized for many reasons, but it will be nice to see updates to this repository.
 
 Feel free to use them and consult them if you like.
 
