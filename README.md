@@ -1,10 +1,10 @@
 # My studies, documents and tools for Red Team
-![[Pasted image 20231129043147.png]]
+![obsidian](https://github.com/xssrae/Red-Team-Notes/blob/main/IMG/Pasted%20image%2020231129042904.png)
 
 
-This is where my *"second brain"* is. All my notes taken on Obsidian for my day-to-day work as a Red Team. Some notes have not yet been finalized for many reasons, but it will be nice to see updates to this repository.
+This is like my *"second brain"*. Here i have all the Obsidian notes for my day work as a Red Team. Some notes haven't been ended for many reasons but should be cool to see updates to this repository.
 
-Feel free to use them and consult them if you like.
+Feel free to use and consult them if you like.
 
 # Study platforms
 - [Tryhackme](https://tryhackme.com/)
