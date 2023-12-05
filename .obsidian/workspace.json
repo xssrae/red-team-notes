@@ -4,26 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "f7d8e316b5d49fc7",
+        "id": "b6f4e7ad9f36869f",
         "type": "tabs",
         "children": [
           {
-            "id": "a8272f61716c7e3d",
+            "id": "21c5284fed251004",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "IMG/Pasted image 20231129042904.png"
-              }
-            }
-          },
-          {
-            "id": "37d10b5282ba0a40",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "IMG/Pasted image 20231129042904.png"
+                "file": "WEB/Files/File Inclusion.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -56,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Scheduled",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 675.0096130371094
+    "width": 200
   },
   "right": {
     "id": "3807a7fe267f9b21",
@@ -93,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IMG/Pasted image 20231129042904.png",
+                "file": "WEB/Files/File Inclusion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IMG/Pasted image 20231129042904.png",
+                "file": "WEB/Files/File Inclusion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IMG/Pasted image 20231129042904.png"
+                "file": "WEB/Files/File Inclusion.md"
               }
             }
           },
@@ -163,6 +155,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "remotely-save:Remotely Save": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
       "canvas:Criar novo canvas": false,
@@ -170,49 +163,55 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "fantasy-calendar:Open Large Fantasy Calendar": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "remotely-save:Remotely Save": false
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "7492318558bad5f2",
+  "active": "21c5284fed251004",
   "lastOpenFiles": [
-    "WEB/Pasted image 20231129043147.png",
+    "WEB/Files/File Transfer - Basic.md",
+    "WEB/Files/File Inclusion.md",
+    "WEB/45d9c1baacda290c1f95858e27f740c9.png",
+    "EXPLOITATION/Priv Esc.md",
+    "Roadmap_sec-main/priv_esc.pdf",
+    "EXPLOITATION/Priv Esc",
+    "CTF/Priv Esc",
+    "Roadmap_sec-main/README.md",
+    "SO/Geral/Processos e Threads.md",
+    "WEB/File",
+    "ENG_REVERSA/Buffer Overflow.md",
+    "SO/Geral",
+    "CRIPTOGRAFIA/Auth Bypass/Enum Users.md",
+    "WEB/Web Shells/Rev Shell - Basic.md",
+    "WEB/b3683addecce2f99d7189ac87cf17557.png",
+    "WEB/API/Reconhecimento passivo.md",
+    "WEB/API/API Hacking Lab.md",
+    "SO/Linux/SSH e permissão de Usuário.md",
+    "CRIPTOGRAFIA/Links.md",
+    "CRIPTOGRAFIA/Auth Bypass",
+    "CTF/Links.md",
+    "WEB/2. Enum/Enum - Subdominios.md",
+    "WEB/Basico/Escalamento de Privilégios.md",
+    "WEB/2. Enum/Sem título",
+    "WEB/Basico/Ferramentas.md",
+    "WEB/Basico/Post Exploitation + Dump do Banco de Dados.md",
+    "WEB/2. Enum/Enum - Básico.md",
+    "WEB/1. Recon/Ativo.md",
+    "WEB/1. Recon/Portscan.md",
+    "WEB/1. Recon/Passivo.md",
+    "WEB/Basico/Shell Upload e Shell reversa dentro do Servidor.md",
+    "WEB/Basico/Burlando o Firewall.md",
+    "WEB/WAF/Maneiras de Burlar Firewall.md",
+    "WEB/2. Enum/Enum - Avançado.md",
+    "WRITEUPS/TryHackMe",
+    "WRITEUPS",
     "IMG/Pasted image 20231129042904.png",
-    "README.md",
+    "WEB/Pasted image 20231129043147.png",
     "IMG/Screenshot_2023-11-20_13_13_22.png",
     "IMG/Pasted image 20231129020557.png",
     "IMG/Screenshot_2023-11-20_13_18_46.png",
     "IMG/Screenshot_2023-11-20_13_32_10.png",
-    "EXPLOITATION/Basic Tools.md",
-    "EXPLOITATION/Payloads/Payload simples com o msfvenom e Priv Esc.md",
-    "EXPLOITATION/Payloads/Sem título.md",
     "EXPLOITATION",
-    "MOBILE/Links.md",
-    "ENG_SOCIAL/Phising Pagina Facebook Fake.md",
-    "Roadmap_sec-main/exploitation.pdf",
-    "Roadmap_sec-main/README.md",
-    "Roadmap_sec-main/Command_tricks.pdf",
-    "Roadmap_sec-main/Crack.pdf",
-    "Roadmap_sec-main/priv_esc.pdf",
-    "Roadmap_sec-main/reversing_shell.pdf",
-    "Exploitation",
-    "WEB/Web Shells/Rev Shell - Avançado.md",
-    "WEB/Web Shells/Rev Shell - Basic.md",
-    "WEB/File Transfer/File Transfer - Basic.md",
-    "Roadmap_sec-main/file_transfer.pdf",
-    "WEB/File Transfer",
-    "Roadmap_sec-main/enumeration.pdf",
-    "WEB/Enum/Enum Avançado.md",
-    "WEB/Enum/Básica.md",
-    "WEB/Enum/Enum.md",
-    "WEB/Enum/Portscan.md",
     "IMG/Pasted image 20231129020019.png",
-    "IMG/Pasted image 20231127002743.png",
-    "IMG/Pasted image 20231120155335.png",
-    "IMG/Pasted image 20231120134325.png",
-    "GERAL/OWASP - Checklist.md",
-    "ENG_REVERSA/Buffer Overflow.md",
-    "CTF/Links.md",
-    "ORGANIZAÇÃO/Obsidian - Organização.md"
+    "IMG/Pasted image 20231127002743.png"
   ]
 }

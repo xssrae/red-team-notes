@@ -22,5 +22,6 @@
   "anuppuccin-theme-settings@@anp-header-color-toggle": true,
   "anuppuccin-theme-settings@@anp-header-margin-toggle": true,
   "anuppuccin-theme-settings@@anp-header-divider-color-toggle": true,
-  "anuppuccin-theme-settings@@anp-h1-color-custom": "anp-h1-pink"
+  "anuppuccin-theme-settings@@anp-h1-color-custom": "anp-h1-pink",
+  "anuppuccin-theme-settings@@anp-decoration-toggle": true
 }

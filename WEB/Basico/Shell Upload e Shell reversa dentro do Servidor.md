@@ -72,3 +72,6 @@ Assim que colar na url, daremos mais um comando shell para expandir esse termina
 ```python
 python -c "import pty;pty.spawn('/bin/bash')"
 ```
+
+
+
