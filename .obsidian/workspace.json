@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEB/Files/File Inclusion.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WEB/Files/File Inclusion.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WEB/Files/File Inclusion.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WEB/Files/File Inclusion.md"
+                "file": "README.md"
               }
             }
           },
@@ -155,7 +155,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "remotely-save:Remotely Save": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
       "canvas:Criar novo canvas": false,
@@ -163,13 +162,14 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "fantasy-calendar:Open Large Fantasy Calendar": false,
-      "obsidian-full-calendar:Open Full Calendar": false
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "remotely-save:Remotely Save": false
     }
   },
   "active": "21c5284fed251004",
   "lastOpenFiles": [
-    "WEB/Files/File Transfer - Basic.md",
     "WEB/Files/File Inclusion.md",
+    "WEB/Files/File Transfer - Basic.md",
     "WEB/45d9c1baacda290c1f95858e27f740c9.png",
     "EXPLOITATION/Priv Esc.md",
     "Roadmap_sec-main/priv_esc.pdf",
