@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "WEB/Files/File Inclusion.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 359.0096130371094
   },
   "right": {
     "id": "3807a7fe267f9b21",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "WEB/Files/File Inclusion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "WEB/Files/File Inclusion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "WEB/Files/File Inclusion.md"
               }
             }
           },
@@ -168,9 +168,16 @@
   },
   "active": "21c5284fed251004",
   "lastOpenFiles": [
-    "WEB/Files/File Inclusion.md",
     "WEB/Files/File Transfer - Basic.md",
-    "WEB/45d9c1baacda290c1f95858e27f740c9.png",
+    "IMG/45d9c1baacda290c1f95858e27f740c9.png",
+    "IMG/b3683addecce2f99d7189ac87cf17557.png",
+    "IMG/Pasted image 20231206020753.png",
+    "IMG/Pasted image 20231206020726.png",
+    "IMG/Pasted image 20231206020658.png",
+    "IMG/Pasted image 20231206020539.png",
+    "WEB/Files/File Inclusion.md",
+    "ENG_REVERSA/Intro.md",
+    "README.md",
     "EXPLOITATION/Priv Esc.md",
     "Roadmap_sec-main/priv_esc.pdf",
     "EXPLOITATION/Priv Esc",
@@ -182,7 +189,6 @@
     "SO/Geral",
     "CRIPTOGRAFIA/Auth Bypass/Enum Users.md",
     "WEB/Web Shells/Rev Shell - Basic.md",
-    "WEB/b3683addecce2f99d7189ac87cf17557.png",
     "WEB/API/Reconhecimento passivo.md",
     "WEB/API/API Hacking Lab.md",
     "SO/Linux/SSH e permissão de Usuário.md",
@@ -200,18 +206,12 @@
     "WEB/1. Recon/Passivo.md",
     "WEB/Basico/Shell Upload e Shell reversa dentro do Servidor.md",
     "WEB/Basico/Burlando o Firewall.md",
-    "WEB/WAF/Maneiras de Burlar Firewall.md",
-    "WEB/2. Enum/Enum - Avançado.md",
     "WRITEUPS/TryHackMe",
     "WRITEUPS",
     "IMG/Pasted image 20231129042904.png",
     "WEB/Pasted image 20231129043147.png",
     "IMG/Screenshot_2023-11-20_13_13_22.png",
     "IMG/Pasted image 20231129020557.png",
-    "IMG/Screenshot_2023-11-20_13_18_46.png",
-    "IMG/Screenshot_2023-11-20_13_32_10.png",
-    "EXPLOITATION",
-    "IMG/Pasted image 20231129020019.png",
-    "IMG/Pasted image 20231127002743.png"
+    "EXPLOITATION"
   ]
 }
