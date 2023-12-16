@@ -29,7 +29,7 @@ Em *STATE*, confirmamos se a porta está aberta ou fechada.
 Em *SERVICE*, vemos que o serviço é geralmente mapeado por uma porta de número específico.
 
 ```shell-session
-raekal1lvr@htb[/htb]$ nmap -sV -sC -p- 10.129.42.253
+$ nmap -sV -sC -p- 10.129.42.253
 
 Starting Nmap 7.80 ( https://nmap.org ) at 2021-02-25 16:18 EST
 Nmap scan report for 10.129.42.253
@@ -73,7 +73,7 @@ O *banner grabbing* é uma técnica útil para identificar rapidamente um servi�
 
 ```shell-session
 $ nc -nv 10.129.42.253 21
-
+10.10.11.224
 (UNKNOWN) [10.129.42.253] 21 (ftp) open
 220 (vsFTPd 3.0.3)
 ```
@@ -119,7 +119,7 @@ Nmap done: 1 IP address (1 host up) scanned in 1.78 seconds
 > FTP scan:
 
 ```shell-session
-raekal1lvr@htb[/htb]$ ftp -p 10.129.42.253
+$ ftp -p 10.129.42.253
 
 Connected to 10.129.42.253.
 220 (vsFTPd 3.0.3)

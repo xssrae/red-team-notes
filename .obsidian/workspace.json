@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEB/Files/File Inclusion.md",
+                "file": "WEB/Solyd Pentest Básico/Shell Upload e Shell reversa dentro do Servidor.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7a256dbcea0d267f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EXPLOITATION/Exploitation Técnicas.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.0096130371094
+    "width": 200
   },
   "right": {
     "id": "3807a7fe267f9b21",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WEB/Files/File Inclusion.md",
+                "file": "EXPLOITATION/Exploitation Técnicas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WEB/Files/File Inclusion.md",
+                "file": "EXPLOITATION/Exploitation Técnicas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WEB/Files/File Inclusion.md"
+                "file": "EXPLOITATION/Exploitation Técnicas.md"
               }
             }
           },
@@ -155,63 +168,64 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "fantasy-calendar:Open Large Fantasy Calendar": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "21c5284fed251004",
+  "active": "7492318558bad5f2",
   "lastOpenFiles": [
-    "WEB/Files/File Transfer - Basic.md",
+    "WEB/Solyd Pentest Básico/Shell Upload e Shell reversa dentro do Servidor.md",
+    "EXPLOITATION/Exploitation Técnicas.md",
+    "Sem título.md",
+    "WRITEUPS/TryHackMe/Dia 1 - Aprendizado de máquina..md",
+    "WEB/Pasted image 20231216023404.png",
+    "WEB/Pasted image 20231216015841.png",
+    "WEB/Pasted image 20231216015121.png",
+    "EXPLOITATION/Remote Code Execution/RCE - Bypass simples.md",
+    "EXPLOITATION/Basic Tools.md",
+    "EXPLOITATION/Payloads/Payload simples com o msfvenom e Priv Esc.md",
+    "EXPLOITATION/Remote Code Execution/Basic.md",
+    "CRIPTOGRAFIA/Auth Bypass/Enum Users.md",
+    "CRIPTOGRAFIA/Links.md",
+    "EXPLOITATION/Remote Code Execution",
+    "EXPLOITATION/Scanning",
+    "WEB/Web Shells/Rev Shell - Basic.md",
+    "WEB/2. Enum/Enum - Médio.md",
+    "WEB/2. Enum/Enum - Básico.md",
+    "WEB/2. Enum/Enum - Avançado.md",
+    "WEB/2. Enum/Enum - Subdominios.md",
+    "WEB/1. Recon/Passivo.md",
+    "WEB/1. Recon/Ativo.md",
+    "WEB/Solyd Pentest Básico/Post Exploitation + Dump do Banco de Dados.md",
+    "WEB/Solyd Pentest Básico/Burlando o Firewall.md",
+    "WEB/Solyd Pentest Básico/Escalamento de Privilégios.md",
+    "WEB/Solyd Pentest Básico/Ferramentas.md",
+    "WEB/API/Reconhecimento Ativo.md",
+    "WEB/API/Reconhecimento passivo.md",
+    "WEB/1. Recon/Portscan.md",
+    "WEB/2. Enum/Ferramentas Pré-Fuzzing.md",
+    "GERAL/OWASP - Checklist.md",
     "IMG/45d9c1baacda290c1f95858e27f740c9.png",
     "IMG/b3683addecce2f99d7189ac87cf17557.png",
     "IMG/Pasted image 20231206020753.png",
     "IMG/Pasted image 20231206020726.png",
     "IMG/Pasted image 20231206020658.png",
     "IMG/Pasted image 20231206020539.png",
-    "WEB/Files/File Inclusion.md",
-    "ENG_REVERSA/Intro.md",
-    "README.md",
-    "EXPLOITATION/Priv Esc.md",
     "Roadmap_sec-main/priv_esc.pdf",
     "EXPLOITATION/Priv Esc",
     "CTF/Priv Esc",
-    "Roadmap_sec-main/README.md",
-    "SO/Geral/Processos e Threads.md",
     "WEB/File",
-    "ENG_REVERSA/Buffer Overflow.md",
     "SO/Geral",
-    "CRIPTOGRAFIA/Auth Bypass/Enum Users.md",
-    "WEB/Web Shells/Rev Shell - Basic.md",
-    "WEB/API/Reconhecimento passivo.md",
-    "WEB/API/API Hacking Lab.md",
-    "SO/Linux/SSH e permissão de Usuário.md",
-    "CRIPTOGRAFIA/Links.md",
     "CRIPTOGRAFIA/Auth Bypass",
-    "CTF/Links.md",
-    "WEB/2. Enum/Enum - Subdominios.md",
-    "WEB/Basico/Escalamento de Privilégios.md",
     "WEB/2. Enum/Sem título",
-    "WEB/Basico/Ferramentas.md",
-    "WEB/Basico/Post Exploitation + Dump do Banco de Dados.md",
-    "WEB/2. Enum/Enum - Básico.md",
-    "WEB/1. Recon/Ativo.md",
-    "WEB/1. Recon/Portscan.md",
-    "WEB/1. Recon/Passivo.md",
-    "WEB/Basico/Shell Upload e Shell reversa dentro do Servidor.md",
-    "WEB/Basico/Burlando o Firewall.md",
     "WRITEUPS/TryHackMe",
-    "WRITEUPS",
-    "IMG/Pasted image 20231129042904.png",
-    "WEB/Pasted image 20231129043147.png",
-    "IMG/Screenshot_2023-11-20_13_13_22.png",
-    "IMG/Pasted image 20231129020557.png",
-    "EXPLOITATION"
+    "IMG/Pasted image 20231129042904.png"
   ]
 }
