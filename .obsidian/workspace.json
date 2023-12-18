@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b6f4e7ad9f36869f",
+        "id": "105a5530e1ac5541",
         "type": "tabs",
         "children": [
           {
-            "id": "21c5284fed251004",
+            "id": "0d81d72eb3df4765",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEB/Solyd Pentest Básico/Shell Upload e Shell reversa dentro do Servidor.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7a256dbcea0d267f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EXPLOITATION/Exploitation Técnicas.md",
+                "file": "EXPLOITATION/Rev Shell/Basic Tips.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EXPLOITATION/Exploitation Técnicas.md",
+                "file": "EXPLOITATION/Rev Shell/Basic Tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EXPLOITATION/Exploitation Técnicas.md",
+                "file": "EXPLOITATION/Rev Shell/Basic Tips.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EXPLOITATION/Exploitation Técnicas.md"
+                "file": "EXPLOITATION/Rev Shell/Basic Tips.md"
               }
             }
           },
@@ -179,24 +166,45 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "7492318558bad5f2",
+  "active": "0d81d72eb3df4765",
   "lastOpenFiles": [
+    "EXPLOITATION/Rev Shell/Tipos de Shell.md",
+    "EXPLOITATION/Rev Shell/Basic Tips.md",
+    "EXPLOITATION/Privilege Escalation/Linux - Priv Esc.md",
+    "EXPLOITATION/Privilege Escalation/Basic Tips.md",
     "WEB/Solyd Pentest Básico/Shell Upload e Shell reversa dentro do Servidor.md",
-    "EXPLOITATION/Exploitation Técnicas.md",
-    "Sem título.md",
-    "WRITEUPS/TryHackMe/Dia 1 - Aprendizado de máquina..md",
-    "WEB/Pasted image 20231216023404.png",
-    "WEB/Pasted image 20231216015841.png",
-    "WEB/Pasted image 20231216015121.png",
+    "WEB/Pasted image 20231217235530.png",
+    "WEB/Pasted image 20231218155934.png",
+    "WEB/Pasted image 20231218154818.png",
+    "WEB/Pasted image 20231218154630.png",
+    "WEB/Pasted image 20231218154123.png",
+    "WEB/Pasted image 20231218154055.png",
+    "WEB/Pasted image 20231218153639.png",
+    "WEB/Pasted image 20231218153536.png",
+    "WEB/Pasted image 20231218153345.png",
+    "WEB/Pasted image 20231218153246.png",
     "EXPLOITATION/Remote Code Execution/RCE - Bypass simples.md",
     "EXPLOITATION/Basic Tools.md",
-    "EXPLOITATION/Payloads/Payload simples com o msfvenom e Priv Esc.md",
-    "EXPLOITATION/Remote Code Execution/Basic.md",
-    "CRIPTOGRAFIA/Auth Bypass/Enum Users.md",
+    "EXPLOITATION/Exploitation Técnicas.md",
+    "WEB/WAF/Maneiras de Burlar Firewall.md",
+    "CRIPTOGRAFIA/Cracking.md",
     "CRIPTOGRAFIA/Links.md",
-    "EXPLOITATION/Remote Code Execution",
-    "EXPLOITATION/Scanning",
-    "WEB/Web Shells/Rev Shell - Basic.md",
+    "Roadmap_sec-main/Crack.pdf",
+    "CRIPTOGRAFIA/Auth Bypass/Enum Users.md",
+    "Roadmap_sec-main/README.md",
+    "Roadmap_sec-main/priv_esc.pdf",
+    "EXPLOITATION/Privilege Escalation",
+    "Roadmap_sec-main/exploitation.pdf",
+    "Roadmap_sec-main/enumeration.pdf",
+    "Roadmap_sec-main/Command_tricks.pdf",
+    "Roadmap_sec-main/reversing_shell.pdf",
+    "Roadmap_sec-main/port_scan.pdf",
+    "Roadmap_sec-main/intro.pdf",
+    "Roadmap_sec-main/file_transfer.pdf",
+    "EXPLOITATION/Payloads/Payload simples com o msfvenom e Priv Esc.md",
+    "Sem título.md",
+    "WRITEUPS/TryHackMe/Dia 1 - Aprendizado de máquina..md",
+    "EXPLOITATION/Remote Code Execution/Basic.md",
     "WEB/2. Enum/Enum - Médio.md",
     "WEB/2. Enum/Enum - Básico.md",
     "WEB/2. Enum/Enum - Avançado.md",
@@ -204,28 +212,6 @@
     "WEB/1. Recon/Passivo.md",
     "WEB/1. Recon/Ativo.md",
     "WEB/Solyd Pentest Básico/Post Exploitation + Dump do Banco de Dados.md",
-    "WEB/Solyd Pentest Básico/Burlando o Firewall.md",
-    "WEB/Solyd Pentest Básico/Escalamento de Privilégios.md",
-    "WEB/Solyd Pentest Básico/Ferramentas.md",
-    "WEB/API/Reconhecimento Ativo.md",
-    "WEB/API/Reconhecimento passivo.md",
-    "WEB/1. Recon/Portscan.md",
-    "WEB/2. Enum/Ferramentas Pré-Fuzzing.md",
-    "GERAL/OWASP - Checklist.md",
-    "IMG/45d9c1baacda290c1f95858e27f740c9.png",
-    "IMG/b3683addecce2f99d7189ac87cf17557.png",
-    "IMG/Pasted image 20231206020753.png",
-    "IMG/Pasted image 20231206020726.png",
-    "IMG/Pasted image 20231206020658.png",
-    "IMG/Pasted image 20231206020539.png",
-    "Roadmap_sec-main/priv_esc.pdf",
-    "EXPLOITATION/Priv Esc",
-    "CTF/Priv Esc",
-    "WEB/File",
-    "SO/Geral",
-    "CRIPTOGRAFIA/Auth Bypass",
-    "WEB/2. Enum/Sem título",
-    "WRITEUPS/TryHackMe",
-    "IMG/Pasted image 20231129042904.png"
+    "WEB/Solyd Pentest Básico/Burlando o Firewall.md"
   ]
 }
