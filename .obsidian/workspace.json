@@ -11,12 +11,8 @@
             "id": "72e0d3e5fd1a31a9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           },
           {
@@ -168,6 +160,11 @@
   },
   "active": "72e0d3e5fd1a31a9",
   "lastOpenFiles": [
+    "A/Untitled.canvas",
+    "A/Wokspace.canvas",
+    "A/Untitled 1.canvas",
+    "README.md",
+    "2023-12-22.md",
     "WEB/canvas.png",
     "IMG/canvas.png",
     "IMG/Pasted image 20231225134824.png",
@@ -178,13 +175,8 @@
     "IMG/Pasted image 20231221002635.png",
     "IMG/Pasted image 20231221002534.png",
     "IMG/Pasted image 20231221002510.png",
-    "IMG/Pasted image 20231221002437.png",
-    "README.md",
     "EXPLOITATION/Privilege Escalation/Windows/4. Privilégios perigosos.md",
     "EXPLOITATION/Privilege Escalation/Windows/3. Configurações incorretas de serviços.md",
-    "A/Untitled 1.canvas",
-    "2023-12-22.md",
-    "A/Untitled.canvas",
     "EXPLOITATION/Rev Shell/Tipos de Shell.md",
     "EXPLOITATION/Privilege Escalation/Windows/2.  Outros ganhos rápidos.md",
     "EXPLOITATION/Privilege Escalation/Windows/1. Enumeração e busca por senhas.md",
