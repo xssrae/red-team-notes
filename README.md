@@ -6,19 +6,20 @@ This is like my *"second brain"*. Here i have all the Obsidian notes for my day 
 
 Feel free to use and consult them if you want.
 
-# Study platforms
+# Study platforms and Blogs
 - [Tryhackme](https://tryhackme.com/)
 - [Hackthebox](https://academy.hackthebox.com/)
 - [Hackaflag](https://hackaflag.com.br/)
 - [APISEC University](https://www.apisecuniversity.com/)
 - [XPSec Academy](https://www.apisecuniversity.com/)
-- [DIO](https://www.dio.me/)
-- [Github](https://github.com/xssrae?tab=stars)
+- [Revx0r](https://revx0r.com)
+- [Hacker's Guide](https://yolospacehacker.com/hackersguide/toolbox.php?cat=HackersGuide)
 # Folders
 - [Criptography](https://github.com/xssrae/Red-Team-Notes/tree/main/CRIPTOGRAFIA)
 - [CTF](https://github.com/xssrae/Red-Team-Notes/tree/main/CTF)
 - [Reverse Engineering](https://github.com/xssrae/Red-Team-Notes/tree/main/ENG_REVERSA)
 - [Social Engineering](https://github.com/xssrae/Red-Team-Notes/tree/main/ENG_SOCIAL)
+- [Exploitation](https://github.com/xssrae/Red-Team-Notes/tree/main/EXPLOITATION)
 - [General](https://github.com/xssrae/Red-Team-Notes/tree/main/GERAL)
 - [Images](https://github.com/xssrae/Red-Team-Notes/tree/main/IMG)
 - [Malware](https://github.com/xssrae/Red-Team-Notes/tree/main/MALWARE)
