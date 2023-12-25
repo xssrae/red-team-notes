@@ -39,7 +39,7 @@
       "query": "MOBILE",
       "color": {
         "a": 1,
-        "rgb": 7676092
+        "rgb": 8528237
       }
     },
     {
@@ -78,24 +78,24 @@
       }
     },
     {
-      "query": "GERAL",
+      "query": "EXPLOITATION",
       "color": {
         "a": 1,
-        "rgb": 10417624
+        "rgb": 9118914
       }
     },
     {
       "query": "Windows",
       "color": {
         "a": 1,
-        "rgb": 5395168
+        "rgb": 675737
       }
     },
     {
       "query": "Linux",
       "color": {
         "a": 1,
-        "rgb": 14732626
+        "rgb": 14328071
       }
     },
     {
@@ -118,25 +118,18 @@
         "a": 1,
         "rgb": 25343
       }
-    },
-    {
-      "query": "EXPLOITATION",
-      "color": {
-        "a": 1,
-        "rgb": 4320472
-      }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -0.4,
-  "nodeSizeMultiplier": 1.33975441889567,
-  "lineSizeMultiplier": 0.824691068356014,
-  "collapse-forces": false,
-  "centerStrength": 0.653449084936649,
-  "repelStrength": 13.7697481620522,
-  "linkStrength": 1,
-  "linkDistance": 297,
-  "scale": 0.29231864317775336,
+  "textFadeMultiplier": 3,
+  "nodeSizeMultiplier": 1.65677083333333,
+  "lineSizeMultiplier": 0.431770833333333,
+  "collapse-forces": true,
+  "centerStrength": 0.375,
+  "repelStrength": 12.5,
+  "linkStrength": 0.729166666666667,
+  "linkDistance": 218,
+  "scale": 0.14872058409308575,
   "close": false
 }

@@ -1,0 +1,16 @@
+{
+  "calendarSources": [
+    {
+      "type": "dailynote",
+      "color": "#8559b1",
+      "heading": "test"
+    }
+  ],
+  "defaultCalendar": 0,
+  "firstDay": 0,
+  "initialView": {
+    "desktop": "timeGridWeek",
+    "mobile": "timeGrid3Days"
+  },
+  "timeFormat24h": false
+}

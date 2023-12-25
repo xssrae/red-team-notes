@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "105a5530e1ac5541",
+        "id": "b55ebebcf2ed9029",
         "type": "tabs",
         "children": [
           {
-            "id": "0d81d72eb3df4765",
+            "id": "72e0d3e5fd1a31a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EXPLOITATION/Rev Shell/Basic Tips.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EXPLOITATION/Rev Shell/Basic Tips.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EXPLOITATION/Rev Shell/Basic Tips.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EXPLOITATION/Rev Shell/Basic Tips.md"
+                "file": "README.md"
               }
             }
           },
@@ -166,53 +166,55 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "7492318558bad5f2",
+  "active": "72e0d3e5fd1a31a9",
   "lastOpenFiles": [
-    "IMG/Pasted image 20231218151459.png",
-    "IMG/Pasted image 20231218155934.png",
-    "IMG/Pasted image 20231218154818.png",
-    "IMG/Pasted image 20231218154630.png",
-    "IMG/Pasted image 20231218154123.png",
-    "IMG/Pasted image 20231218154055.png",
-    "IMG/Pasted image 20231218153639.png",
-    "IMG/Pasted image 20231218153536.png",
-    "IMG/Pasted image 20231218153345.png",
-    "IMG/Pasted image 20231218153246.png",
-    "IMG/Pasted image 20231218151645.png",
+    "WEB/canvas.png",
+    "IMG/canvas.png",
+    "IMG/Pasted image 20231225134824.png",
+    "IMG/Pasted image 20231222212534.png",
+    "IMG/Pasted image 20231222212510.png",
+    "IMG/Pasted image 20231221002713.png",
+    "IMG/Pasted image 20231221002658.png",
+    "IMG/Pasted image 20231221002635.png",
+    "IMG/Pasted image 20231221002534.png",
+    "IMG/Pasted image 20231221002510.png",
+    "IMG/Pasted image 20231221002437.png",
+    "README.md",
+    "EXPLOITATION/Privilege Escalation/Windows/4. Privilégios perigosos.md",
+    "EXPLOITATION/Privilege Escalation/Windows/3. Configurações incorretas de serviços.md",
+    "A/Untitled 1.canvas",
+    "2023-12-22.md",
+    "A/Untitled.canvas",
     "EXPLOITATION/Rev Shell/Tipos de Shell.md",
+    "EXPLOITATION/Privilege Escalation/Windows/2.  Outros ganhos rápidos.md",
+    "EXPLOITATION/Privilege Escalation/Windows/1. Enumeração e busca por senhas.md",
+    "EXPLOITATION/Privilege Escalation/Linux/1. Enumeração.md",
+    "EXPLOITATION/Privilege Escalation/Linux/7. NFS.md",
+    "EXPLOITATION/Privilege Escalation/Windows",
+    "EXPLOITATION/Privilege Escalation/Linux/6. Path.md",
+    "EXPLOITATION/Privilege Escalation/Linux/5. Cron Jobs.md",
+    "EXPLOITATION/Privilege Escalation/Linux/5. Cron Jobs",
     "EXPLOITATION/Rev Shell/Basic Tips.md",
-    "EXPLOITATION/Privilege Escalation/Linux - Priv Esc.md",
+    "EXPLOITATION/Privilege Escalation/Linux/4.  Recursos.md",
+    "EXPLOITATION/Privilege Escalation/Linux/3. Hacks em arquivos e grupos.md",
+    "EXPLOITATION/Privilege Escalation/Linux/2. Kernel Exploits.md",
+    "EXPLOITATION/Privilege Escalation/Linux/Enumeração 1.md",
     "EXPLOITATION/Privilege Escalation/Basic Tips.md",
+    "REDES/Infra.md",
+    "WEB/Solyd Pentest Básico/Burlando o Firewall.md",
+    "EXPLOITATION/Privilege Escalation/Linux",
+    "EXPLOITATION/Basic Tools.md",
+    "EXPLOITATION/Payloads/Backdoor simples com o msfvenom e Priv Esc.md",
     "WEB/Solyd Pentest Básico/Shell Upload e Shell reversa dentro do Servidor.md",
     "EXPLOITATION/Remote Code Execution/RCE - Bypass simples.md",
-    "EXPLOITATION/Basic Tools.md",
     "EXPLOITATION/Exploitation Técnicas.md",
     "WEB/WAF/Maneiras de Burlar Firewall.md",
-    "CRIPTOGRAFIA/Cracking.md",
-    "CRIPTOGRAFIA/Links.md",
     "Roadmap_sec-main/Crack.pdf",
-    "CRIPTOGRAFIA/Auth Bypass/Enum Users.md",
-    "Roadmap_sec-main/README.md",
     "Roadmap_sec-main/priv_esc.pdf",
     "EXPLOITATION/Privilege Escalation",
     "Roadmap_sec-main/exploitation.pdf",
     "Roadmap_sec-main/enumeration.pdf",
     "Roadmap_sec-main/Command_tricks.pdf",
-    "Roadmap_sec-main/reversing_shell.pdf",
-    "Roadmap_sec-main/port_scan.pdf",
-    "Roadmap_sec-main/intro.pdf",
-    "Roadmap_sec-main/file_transfer.pdf",
-    "EXPLOITATION/Payloads/Payload simples com o msfvenom e Priv Esc.md",
-    "Sem título.md",
-    "WRITEUPS/TryHackMe/Dia 1 - Aprendizado de máquina..md",
-    "EXPLOITATION/Remote Code Execution/Basic.md",
-    "WEB/2. Enum/Enum - Médio.md",
-    "WEB/2. Enum/Enum - Básico.md",
-    "WEB/2. Enum/Enum - Avançado.md",
-    "WEB/2. Enum/Enum - Subdominios.md",
-    "WEB/1. Recon/Passivo.md",
-    "WEB/1. Recon/Ativo.md",
-    "WEB/Solyd Pentest Básico/Post Exploitation + Dump do Banco de Dados.md",
-    "WEB/Solyd Pentest Básico/Burlando o Firewall.md"
+    "Roadmap_sec-main/reversing_shell.pdf"
   ]
 }
