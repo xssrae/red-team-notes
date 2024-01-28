@@ -11,7 +11,7 @@ Feel free to use and consult them if you want.
 - [Hackthebox](https://academy.hackthebox.com/)
 - [Hackaflag](https://hackaflag.com.br/)
 - [APISEC University](https://www.apisecuniversity.com/)
-- [XPSec Academy](https://www.apisecuniversity.com/)
+- [XPSec Academy](https://xpsec.academy/)
 - [Revx0r](https://revx0r.com)
 - [Hacker's Guide](https://yolospacehacker.com/hackersguide/toolbox.php?cat=HackersGuide)
 # Folders
