@@ -2,7 +2,7 @@
 
 ![canvas](https://github.com/xssrae/Red-Team-Notes/blob/main/IMG/canvas.png)
 
-This is like my *"second brain"*. Here i have all the Obsidian notes for my day work as a Red Team. Some notes haven't been ended for many reasons but should be cool to see updates to this repository.
+This is like my *"second brain"*. Here i have all the [Obsidian](https://obsidian.md/) notes for my day work as a Red Team. Some notes haven't been ended for many reasons but should be cool to see updates to this repository.
 
 Feel free to use and consult them if you want.
 
